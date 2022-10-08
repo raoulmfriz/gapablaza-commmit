@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AvaxScript</title>
+    <title>AvaxScript / G.Apablaza</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- BOOTSTRAP -->
@@ -30,7 +30,7 @@
         <a class="navbar-brand" href="#">
           <img src="./assets/img/logo.png" alt="logo" />
         </a>
-        
+
         <button
           class="navbar-toggler"
           type="button"
@@ -125,14 +125,171 @@
       </div>
     </header>
 
-    <footer>
-      <div class="container-fluid bg-dark footer">
-        <div class="row">
-          <div class="col text-center text-white">
-            <h1>aqui modifique un footer</h1>
+    <section>
+      <div class="container">
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/card_1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/card_2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/card_3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <section id="Contacto" class="container my-5">
+        <h2 class="display-4 fw-bold text-center my-4">
+          Contacto
+        </h2>
+        <form>
+          <div class="form-group mb-4">
+            <!-- <label class="mb-2">Nombre</label> -->
+            <input class="form-control" placeholder="Nombre" />
+          </div>
+
+          <div class="form-group mb-4">
+            <!-- <label class="mb-2">Correo electrónico</label> -->
+            <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+          <div class="form-group">
+            <!-- <label class="mb-2">Mensaje</label> -->
+            <textarea
+              class="form-control"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>
+          </div>
+
+          <div class="my-3 text-end">
+            <button class="btn text-dark fw-bold">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </section>
+
+    <footer class="bg-dark text-center text-light p-4 link-contacto">
+      <p class="mb-0">Gerardo Apablaza 2022. Todos los derechos reservados.</p>
     </footer>
 
     <script
