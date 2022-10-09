@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AvaxScript / G.Apablaza</title>
+    <title>G.Apablaza</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- BOOTSTRAP -->
@@ -26,9 +26,9 @@
       class="navbar navbar-expand-lg navbar-dark bg-dark"
       aria-label="Offcanvas navbar large"
     >
-      <div class="container-fluid">
+      <div class="container-fluid px-3 py-2">
         <a class="navbar-brand" href="#">
-          <img src="./assets/img/logo-2.png" alt="logo" />
+          <img src="./assets/img/logo_demo.png" alt="logo" />
         </a>
 
         <button
@@ -51,7 +51,7 @@
               class="offcanvas-title fs-1 text-decoration-underline ms-3"
               id="offcanvasNavbar2Label"
             >
-              AvaxScript
+              G.Apablaza
             </h5>
             <button
               type="button"
@@ -112,218 +112,216 @@
 
     <!-- HEADER -->
     <header>
-      <div class="container text-center my-5">
+      <div class="container text-center py-2">
         <div class="row">
-          <div class="col">
-            <h1>Hola, Soy Gerardo Apablaza</h1>
-            <div class="col-lg-8 my-4">
-              <p class="fst-italic text-start">
-                Hola soy Gerardo! aqui va un resumen personal, pero no se como
-                empezarlo... soy de santiago (sector sur de la capitale), tengo
-                33 años, padre de un gordo hermoso de 8 años, soy fanático de
-                las placas de desarrollo ESP32 y amante de las luces RGB. <br />
-                <br />
-                Tengo 2 acuarios, una Gata llamada Zafira y un Hámster "Panda".
-                <br /><br />
-                Tengo una Reina por la cual daría mi vida y se llama Verónica,
-                mi amada compañera de vida. NOTA ANECDÓTICA: El hecho que mi
-                madre me vendió a mi <del>dueña</del> compañera por una
-                miserable <del>(pero deliciosa)</del> cajetilla de cigarros (una
-                de 20') click.
-              </p>
-            </div>
+          <div class="col-12">
+            <h1 class="pt-4">Hola, Soy Gerardo Apablaza</h1>
+          </div>
+          <div class="col-lg-8 py-3">
+            <p class="fst-italic text-start m-0">
+              Hola soy Gerardo! aqui va un resumen personal, pero no se como
+              empezarlo... soy de santiago (sector sur de la capitale), tengo 33
+              años, padre de un gordo hermoso de 8 años, soy fanático de las
+              placas de desarrollo ESP32 y amante de las luces RGB. <br />
+              <br />
+              Tengo 2 acuarios, una Gata llamada Zafira y un Hámster "Panda".
+              <br /><br />
+              Tengo una Reina por la cual daría mi vida y se llama Verónica, mi
+              amada compañera de vida. NOTA ANECDÓTICA: El hecho que mi madre me
+              vendió a mi <del>dueña</del> compañera por una miserable
+              <del>(pero deliciosa)</del> cajetilla de cigarros (una de 20')
+              click.
+            </p>
           </div>
         </div>
       </div>
     </header>
 
     <!-- CAROUSEL -->
-    <section>
-      <div class="container my-5">
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./assets/img/carrusel01.jpg"
-                class="d-block w-100"
-                alt="sensor_en_construccion"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-dark fw-bold">Sensor Prototipo</h5>
-                <p class="text-dark">Captura de Microdatos Medioambientales.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/img/carrusel02.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="fw-bold">UPS Prototipo para Comunicaciones LORA</h5>
-                <p>Equipo UPS para Sensores Conectados a Red LORA.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/img/carrusel03.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="fw_bold">Placa PCB en Testing</h5>
-                <p>Sistema Manual/Auto para Regadores Aljibes Minera Spence.</p>
-              </div>
-            </div>
-          </div>
+    <section class="container py-2">
+      <h2 class="text-center py-1 text-decoration-underline">Proyectos Personales</h2>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
           <button
-            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
           <button
-            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carrusel01.jpg"
+              class="d-block w-100"
+              alt="sensor_en_construccion"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark fw-bold">Sensor Prototipo</h5>
+              <p class="text-dark">Captura de Microdatos Medioambientales.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carrusel02.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">UPS Prototipo para Comunicaciones LORA</h5>
+              <p>Equipo UPS para Sensores Conectados a Red LORA.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carrusel03.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw_bold">Placa PCB en Testing</h5>
+              <p>Sistema Manual/Auto para Regadores Aljibes Minera Spence.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
     <!-- TRABAJOS-DESAFIOLATAM -->
-    <section>
-      <div class="container-fluid my-5">
-        <div class="row mx-auto">
-          <div class="col-md-6 col-lg-4 my-3">
-            <div class="card" style="width: 100%">
-              <img src="./assets/img/card-1.png" class="img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">CV HTML</h5>
-                <p class="card-text">
-                  Curriculum Vitae básico con etiquetas de HTML.
-                </p>
-                <div class="container text-end">
-                  <a
-                    href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/HTML"
-                    target="_blank"
-                    class="btn btn-warning fw-bold"
-                    >Ir al Repo</a
-                  >
-                </div>
+    <section class="container-fluid py-2">
+      <h2 class="text-center py-1 text-decoration-underline">Proyectos Desafio LATAM</h2>
+      <div class="row mx-auto">
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card" style="width: 100%">
+            <img src="./assets/img/card-1.png" class="img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CV HTML</h5>
+              <p class="card-text">
+                Curriculum Vitae básico con etiquetas de HTML.
+              </p>
+              <div class="container text-end">
+                <a
+                  href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/HTML"
+                  target="_blank"
+                  class="btn btn-warning fw-bold"
+                  >Ir al Repo</a
+                >
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-4 my-3">
-            <div class="card" style="width: 100%">
-              <img src="./assets/img/card-2.png" class="img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">E-commerce CSS</h5>
-                <p class="card-text">Tienda diseñada con HTML + CSS.</p>
-                <div class="container text-end">
-                  <a
-                    href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/CSS"
-                    target="_blank"
-                    class="btn btn-warning fw-bold"
-                    >Ir al Repo</a
-                  >
-                </div>
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card" style="width: 100%">
+            <img src="./assets/img/card-2.png" class="img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">E-commerce CSS</h5>
+              <p class="card-text">Tienda diseñada con HTML + CSS.</p>
+              <div class="container text-end">
+                <a
+                  href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/CSS"
+                  target="_blank"
+                  class="btn btn-warning fw-bold"
+                  >Ir al Repo</a
+                >
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-4 my-3">
-            <div class="card" style="width: 100%">
-              <img src="./assets/img/card-3.png" class="img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Iguana Page Posicionamiento</h5>
-                <p class="card-text">
-                  Página Iguanas para práctica de posicionamiento y etiquetas
-                  "display"
-                </p>
-                <div class="container text-end">
-                  <a
-                    href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/Posicionamiento"
-                    target="_blank"
-                    class="btn btn-warning fw-bold"
-                    >Ir al Repo</a
-                  >
-                </div>
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card" style="width: 100%">
+            <img src="./assets/img/card-3.png" class="img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Iguana Page Posicionamiento</h5>
+              <p class="card-text">
+                Página Iguanas para práctica de posicionamiento y etiquetas
+                "display"
+              </p>
+              <div class="container text-end">
+                <a
+                  href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/Posicionamiento"
+                  target="_blank"
+                  class="btn btn-warning fw-bold"
+                  >Ir al Repo</a
+                >
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-4 my-3">
-            <div class="card" style="width: 100%">
-              <img src="./assets/img/card-4.png" class="img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Cuppon - Bootstrap5</h5>
-                <p class="card-text">
-                  Tienda de Cupones utilizando el framework Bootstrap
-                </p>
-                <div class="container text-end">
-                  <a
-                    href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/Bootstrap/Cuppon"
-                    target="_blank"
-                    class="btn btn-warning fw-bold"
-                    >Ir al Repo</a
-                  >
-                </div>
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card" style="width: 100%">
+            <img src="./assets/img/card-4.png" class="img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cuppon - Bootstrap5</h5>
+              <p class="card-text">
+                Tienda de Cupones utilizando el framework Bootstrap
+              </p>
+              <div class="container text-end">
+                <a
+                  href="https://github.com/d0gma-x/fullstack_js_DesafioLatam_g28/tree/main/Bootstrap/Cuppon"
+                  target="_blank"
+                  class="btn btn-warning fw-bold"
+                  >Ir al Repo</a
+                >
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6 col-lg-4 my-3">
-            <div class="card" style="width: 100%">
-              <img src="./assets/img/card-5.png" class="img-fluid" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Bootstrap5 - Github</h5>
-                <p class="card-text">
-                  Fork desde Github a Portafolio de un Tercero el cual se
-                  modifico usando clases de Bootstrap
-                </p>
-                <div class="container text-end">
-                  <a
-                    href="https://github.com/d0gma-x/fdsw-github"
-                    target="_blank"
-                    class="btn btn-warning fw-bold"
-                    >Ir al Repo</a
-                  >
-                </div>
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card" style="width: 100%">
+            <img src="./assets/img/card-5.png" class="img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap5 - Github</h5>
+              <p class="card-text">
+                Fork desde Github a Portafolio de un Tercero el cual se modifico
+                usando clases de Bootstrap
+              </p>
+              <div class="container text-end">
+                <a
+                  href="https://github.com/d0gma-x/fdsw-github"
+                  target="_blank"
+                  class="btn btn-warning fw-bold"
+                  >Ir al Repo</a
+                >
               </div>
             </div>
           </div>
@@ -332,8 +330,8 @@
     </section>
 
     <!-- FORM-CONTACT -->
-    <section class="container my-5">
-      <h2 class="display-4 fw-bold text-center my-4">Contacto</h2>
+    <section class="container py-2">
+      <h2 class="display-4 fw-bold text-center my-4 text-decoration-underline">Contacto</h2>
       <form>
         <div class="form-group mb-4">
           <!-- <label class="mb-2">Nombre</label> -->
@@ -361,7 +359,7 @@
 
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-light p-4">
-      <p class="mb-0">Gerardo Apablaza 2022. Todos los derechos reservados.</p>
+      <p class="mb-0">Gerardo Apablaza 2022.</p>
     </footer>
 
     <!-- SCRIPT-JS-PARA-BOOTSTRAP-v5 -->
