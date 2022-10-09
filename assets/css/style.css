@@ -4,7 +4,8 @@
 }
 
 .link-contacto{
-    background-color: #EF5B0C;
+    /* background-color: #EF5B0C; */
+    background-color: #ffc107;
     border-radius: 10px;
 }
 
@@ -13,7 +14,8 @@
 }
 
 .canvas-contact a{
-    color: #EF5B0C;
+    /* color: #EF5B0C; */
+    color: #ffc107;
     text-decoration: none;
 }
 
